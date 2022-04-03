@@ -1,0 +1,78 @@
+:root {
+    --blizzard-blue: #00bfff;
+    --blizzard-blue-dark: #00b2ff;
+    --blizzard-blue-light: #00bfff;
+    --blizzard-black: #0b0d12;
+    --blizzard-button-blue: #1190ed;
+}
+
+
+nav {
+    background-color: var(--blizzard-black);
+    color: #bababa;
+    list-style-type: none;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    padding-left: 0.3em;
+}
+
+a:link, a:visited {
+    color: #bababa;
+    text-decoration: none;
+}
+
+/* .links-flexbox {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
+    z-index: 1;
+}
+
+.first-five {
+    margin-left: 2em;
+}
+
+.navbar-last-two {
+    justify-content: space-evenly;
+    margin-left: 35em;
+    padding-right: 1em;
+}
+
+.last-child {
+    padding-left: 0.4em;
+}
+
+body {
+    background-color: #172436;
+    margin: 0;
+}
+
+.outlaw-bfa-pic {
+    display: block;
+    max-width: 70%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.white-font {
+   color: #bababa;
+}
+
