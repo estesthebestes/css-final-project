@@ -4,6 +4,7 @@
     --blizzard-blue-light: #00bfff;
     --blizzard-black: #0b0d12;
     --blizzard-button-blue: #1190ed;
+    --resize-500: 40px;
 }
 
 
@@ -73,6 +74,29 @@ body {
 }
 
 .white-font {
-   color: #bababa;
+    color: #fff;
+    font-family: "Archivo", sans-serif;
+    margin: var(--resize-500);
+    margin-left: 50px;
 }
 
+.games-container {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    margin: var(--resize-500);
+    
+
+}
+
+.game-layout {
+    flex-grow: 1;
+    max-height: 180px;
+    max-width: 180px;
+}
+
+.manual-styling-game-pic {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 1em;
+}
